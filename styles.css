@@ -38,3 +38,6 @@ p {
 p:nth-child(2) strong {
   background:pink;
 }
+a {
+background: white;  
+}
