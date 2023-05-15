@@ -42,6 +42,6 @@ a {
 background: white;  
 }
 a{
-  
+  display: block;
   background: white;
 }
