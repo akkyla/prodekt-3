@@ -51,7 +51,7 @@ nav ul {
 }
 .block-div{
   background: turquoise;
-  display: block;
+  display: inline;
   border-width:2px ;
   border-color: black;
   border-style: solid;
