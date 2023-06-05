@@ -14,7 +14,7 @@ background: rgb(173, 141, 141);
 }
 div.parent{
 display: grid;
-grid-template-columns: 20% 80%;
+grid-template-columns: 150px auto;
 min-height: 100vh;
 }
 div#child{
@@ -43,7 +43,7 @@ text-decoration: none;
   
 }
 nav li {
-
+margin-bottom: 10px;
   list-style-type: none;
 }
 nav ul {
@@ -61,11 +61,20 @@ nav ul {
 #spacing-lesson{
   width: 300px;
   height: 50px;
-  margin: 50px;
-  padding:25px ; 
+  margin: auto;
+  padding:25px ;
+  margin-top: 25px; 
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .inline-div {
   display: inline;
   background-color: purple;
   color: white;
+}
+.bi {
+  margin: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
