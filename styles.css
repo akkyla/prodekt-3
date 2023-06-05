@@ -58,3 +58,8 @@ nav ul {
   padding: 1rem;
   margin: 2rem;
 }
+.inline-div {
+  display: inline;
+  background-color: purple;
+  color: white;
+}
