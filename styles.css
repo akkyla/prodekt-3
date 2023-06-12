@@ -10,15 +10,16 @@ background: rgb(167, 102, 113);
 }
 div{
 /* display: grid; */
-background: rgb(173, 141, 141);
+
 }
 div.parent{
 display: grid;
 grid-template-columns: 150px auto;
 min-height: 100vh;
+grid-gap: 10px;
 }
-div#child{
-background: gold;
+div.child{
+background: rgb(21, 168, 161);
 }
 .box{
 width: 100px;
@@ -27,13 +28,13 @@ background: yellow;
 border: 5px solid black;
 }
 p {
-  background: red;
+  background: rgb(194, 194, 194);
 }
 .paragraph_2 {
-  background: blue; 
+  background: rgb(56, 56, 156); 
 }
 #paragraph_3{
-  background: green;
+  background: rgb(72, 136, 72);
 }
 p:nth-child(2) strong {
   background:pink;
@@ -67,6 +68,8 @@ nav ul {
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px purple;
 }
 .inline-div {
   display: inline;
@@ -78,3 +81,6 @@ nav ul {
   margin-left: 5px;
   margin-right: 5px;
 }
+ html{
+   background: DarkSalmon	;
+ }
