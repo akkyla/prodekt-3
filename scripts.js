@@ -9,5 +9,6 @@ function doSomethingCool(){
   var div = document.querySelector('.child');
   var p = document.createElement('p');
   var name = document.querySelector('#name').value;
+  p.textContent= name ;
   div.appendChild(p);
 }
