@@ -8,5 +8,6 @@ function doSomethingCool(){
  // alert(name + 'Is Cool');
   var div = document.querySelector('.child');
   var p = document.createElement('p');
+  var name = document.querySelector('#name').value;
   div.appendChild(p);
 }
